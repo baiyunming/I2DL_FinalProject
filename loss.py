@@ -1,4 +1,4 @@
-#define multiple-part loss function according to the original YOLO papaer
+#define multiple-part loss function according to the original YOLO paper
 
 import torch
 import torch.nn as nn
