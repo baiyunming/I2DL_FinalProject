@@ -9,10 +9,11 @@ Run Generate_txt_csv.ipynb to generate txt files for training and test dataset. 
 Then the txt file in converted to csv file, which is need for creating an instance of defined AnimalDataset class in animal_dataset.py.  
 
 ## Run TrainYolo.ipynb
-This ipynb file contains the whole training procedure of the model. One can either train the model by himself or load one pretrained model (https://drive.google.com/file/d/1-2HnaLOp3-Spj9Do0DRFYicACZmoIeZu/view?usp=sharing) and directly visualize the result on test dataset.
+This ipynb file contains the whole training procedure of the model. One can either train the model by himself or load one pretrained model (https://drive.google.com/file/d/1-2HnaLOp3-Spj9Do0DRFYicACZmoIeZu/view?usp=sharing) and directly visualize the result on test dataset.  
 
 
-model.py: definition of model
-animal_dataset.py: definition of dataset class
-loss.py: definition of multi-part loss class
-utils: functions needed for evaluation of the model (calculating mean_average_precision)
+
+model.py: definition of model  
+animal_dataset.py: definition of dataset class  
+loss.py: definition of multi-part loss class  
+utils.py: functions needed for evaluation of the model (calculating mean_average_precision)
