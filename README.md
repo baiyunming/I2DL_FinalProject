@@ -12,7 +12,7 @@ Then the txt file is converted to csv file, which is need for creating an instan
 This ipynb file contains the whole training procedure of the model. One can either train the model by himself or load one pretrained model (https://drive.google.com/file/d/1-2HnaLOp3-Spj9Do0DRFYicACZmoIeZu/view?usp=sharing) and directly visualize the result on the test dataset.  
 
 
-# other files
+## other files
 model.py: definition of model  
 animal_dataset.py: definition of dataset class  
 loss.py: definition of multi-part loss class  
